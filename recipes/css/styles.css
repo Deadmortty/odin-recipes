@@ -1,0 +1,41 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;  /* Use a sans-serif font */
+    background-color: #f9f3e3;         /* Light beige background */
+    color: #5a3e2e;                     /* Dark brown text color */
+    line-height: 1.6;                   /* Improve readability */
+    margin: 20px;                       /* Add some margin around the body */
+}
+
+/* Heading Styles */
+h1 {
+    font-family: 'Georgia', serif;      /* Elegant serif font for main title */
+    color: #e6d4b8;                     /* Cream color for headings */
+    text-align: center;                 /* Center the title */
+}
+
+h2 {
+    font-family: 'Playfair Display', serif; /* Elegant font for subheadings */
+    color: #5a3e2e;                     /* Dark brown for subheadings */
+}
+
+/* Image Styles */
+img {
+    display: block;                      /* Center the image */
+    max-width: 80%;                     /* Limit maximum width to 80% of the container */
+    height: auto;                       /* Maintain aspect ratio */
+    margin: 20px auto;                 /* Center the image with margin */
+    border-radius: 10px;               /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to image */
+}
+
+/* List Styles */
+ul, ol {
+    margin-left: 20px;                  /* Indent lists */
+}
+
+/* Strong Text */
+strong {
+    color: #5a3e2e;                     /* Strong text color for emphasis */
+}
+
