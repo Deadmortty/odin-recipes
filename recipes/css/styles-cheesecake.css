@@ -1,0 +1,85 @@
+ /* General styles */
+body {
+    font-family: 'Playfair Display', serif; /* Use the same font */
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, #fff5e6 0%, #fff0d9 100%); /* Soft cream gradient */
+}
+
+/* Container styles */
+.container {
+    display: flex;                  /* Use flexbox layout */
+    justify-content: center;        /* Center content horizontally */
+    align-items: center;            /* Center vertically */
+    flex-direction: column;         /* Stack items vertically */
+    text-align: center;             /* Center text within the container */
+    max-width: 800px;               /* Limit the maximum width for better readability */
+    margin: 0 auto;                 /* Center the container itself on the page */
+    padding: 20px;                  /* Add padding inside the container for spacing */
+}
+
+/* Heading styles */
+h1 {
+    color: #f1c40f; /* Golden yellow color for the main title, representing cheesecake's richness */
+    margin-bottom: 20px; /* Space below the main title */
+}
+
+h2 {
+    color: #f1c40f; /* Golden yellow for all headings */
+    margin-bottom: 10px; /* Space below each heading */
+}
+
+h2 + p {
+    margin-top: 5px; /* Reduce space above paragraphs that follow headings */
+    margin-bottom: 10px; /* Space below paragraphs for clarity */
+}
+
+/* Specific heading adjustments */
+h2:nth-of-type(2) { /* Description heading */
+    margin-bottom: 5px; /* Close space to the paragraph */
+}
+
+h2:nth-of-type(3) { /* Steps heading */
+    margin-bottom: 20px; /* Increase space below the heading for clarity */
+}
+
+/* Paragraph styles */
+
+/* Image styles */
+img {
+    display: block;                 /* Center the image */
+    max-width: 80%;                /* Limit maximum width to 80% of the container */
+    height: auto;                  /* Maintain aspect ratio */
+    margin: 20px auto;             /* Add some margin around the image */
+    border-radius: 15px;           /* More rounded corners for a softer look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for depth */
+}
+
+/* Paragraph styles */
+div p {
+    color: #422905; /* Dark brown for all paragraphs */
+    margin: 10px 0; /* Adding some margin for spacing */
+}
+
+/* List styles */
+ul, ol {
+    margin: 10px auto;             /* Center the lists and provide some spacing */
+    padding: 0;
+    max-width: 600px;              /* Limit width of lists */
+}
+
+/* List item styles */
+li {
+    text-align: left;              /* Align list items to the left */
+    margin: 8px 0;                /* Spacing between items */
+    color: #9c400296;              /* Warm orange color for list items, complementary to the golden yellow */
+}
+
+/* Strong text styles */
+strong {
+    color: #f1c40f; /* Golden yellow for emphasis, matching the headings */
+}
+
+div p strong {
+    color: #ef670c; /* Keep the paragraph color */
+}

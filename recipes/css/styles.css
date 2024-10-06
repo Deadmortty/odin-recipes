@@ -1,41 +1,51 @@
-/* General Body Styles */
+ /* General Body Styles */
 body {
-    font-family: 'Arial', sans-serif;  /* Use a sans-serif font */
-    background-color: #f9f3e3;         /* Light beige background */
-    color: #5a3e2e;                     /* Dark brown text color */
-    line-height: 1.6;                   /* Improve readability */
-    margin: 20px;                       /* Add some margin around the body */
+    font-family: 'Arial', sans-serif;  
+    background: linear-gradient(to bottom, #f9f3e3 0%, #f9f3e3 50%, #e0e6d5 100%);
+    color: #5a3e2e;                     
+    line-height: 1.6;                   
+    margin: 20px;                       
+}
+
+a {
+    text-decoration: none;               
+    color: #5a3e2e;                     
 }
 
 /* Heading Styles */
 h1 {
-    font-family: 'Georgia', serif;      /* Elegant serif font for main title */
-    color: #e6d4b8;                     /* Cream color for headings */
-    text-align: center;                 /* Center the title */
+    font-family: 'Georgia', serif;      
+    color: #e6d4b8;                     
+    text-align: center;                 
 }
 
-h2 {
-    font-family: 'Playfair Display', serif; /* Elegant font for subheadings */
-    color: #5a3e2e;                     /* Dark brown for subheadings */
+/* Recipe Container */
+.recipe-container {
+    display: flex;                      
+    flex-wrap: wrap;                   
+    justify-content: center;            
+}
+
+.recipe-item {
+    width: 45%;                        
+    margin: 10px;                     
+    text-align: center;                
 }
 
 /* Image Styles */
 img {
-    display: block;                      /* Center the image */
-    max-width: 80%;                     /* Limit maximum width to 80% of the container */
-    height: auto;                       /* Maintain aspect ratio */
-    margin: 20px auto;                 /* Center the image with margin */
-    border-radius: 10px;               /* Slightly rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to image */
+    max-width: 100%;                   
+    height: auto;                      
+    border-radius: 10px;               
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 /* List Styles */
 ul, ol {
-    margin-left: 20px;                  /* Indent lists */
+    margin-left: 20px;                  
 }
 
 /* Strong Text */
 strong {
-    color: #5a3e2e;                     /* Strong text color for emphasis */
+    color: #5a3e2e;                     
 }
-

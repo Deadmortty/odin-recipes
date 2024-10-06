@@ -1,0 +1,71 @@
+ /* General styles */
+ body {
+    font-family: 'Playfair Display', serif; /* Use the same font */
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f9f3e3 0%, #f9f3e3 50%, #e0e6d5 100%);
+    color: #da0a0a; /* Dark text for contrast */
+}
+
+/* Container styles */
+.container {
+    display: flex;                  /* Use flexbox layout */
+    justify-content: center;        /* Center horizontally */
+    align-items: center;            /* Center vertically */
+    flex-direction: column;         /* Stack items vertically */
+    text-align: center;             /* Center text within the container */
+}
+
+/* Heading styles */
+h1 {
+    color: #e63946; /* Tomato red color for the main title */
+    margin-bottom: 20px; /* Space below the main title */
+}
+
+h2:nth-of-type(2) { /* Description heading */
+    margin-bottom: 5px; /* Close space to the paragraph */
+    color:#e63946
+}
+
+h2:first-of-type {
+    color: #e63946; /* Tomato red color for the Description heading */
+    margin-bottom: 5px; /* Adjust spacing if needed */
+}
+
+h2:nth-of-type(3) { /* Steps heading */
+    margin-bottom: 2px; /* Increase space below the heading */
+    color:#e63946 
+}
+
+div p {
+    color:#e63946 ; /* This specifically targets paragraphs inside a div */
+}
+
+/* Image styles */
+img {
+    display: block;                 /* Center the image */
+    max-width: 80%;                /* Limit maximum width to 80% of the container */
+    height: auto;                  /* Maintain aspect ratio */
+    margin: 10px auto;             /* Center the image with margin */
+    border-radius: 10px;           /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to image */
+}
+
+/* List styles */
+ul, ol {
+    margin: 5px auto;             /* Center the lists */
+    padding: 0;
+    max-width: 600px;              /* Limit width of lists */
+}
+
+/* List item styles */
+li {
+    text-align: left;              /* Align list items to the left */
+    margin: 10px 0;               /* Spacing between items */
+    color: #fe0000;                /* Teal color for list items */
+}
+
+/* Strong text styles */
+strong {
+    color: #e63946; /* Tomato red for emphasis */
+}
