@@ -4,7 +4,7 @@ body {
     background: linear-gradient(to bottom, #f9f3e3 0%, #f9f3e3 50%, #e0e6d5 100%);
     color: #5a3e2e;                     
     line-height: 1.6;                   
-    margin: 20px;                       
+    margin: 10px;                       
 }
 
 a {
@@ -34,11 +34,13 @@ h1 {
 
 /* Image Styles */
 img {
-    max-width: 100%;                   
+    padding-top: 0%;
+    max-width: 70%;                   
     height: auto;                      
     border-radius: 10px;               
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+
 
 /* List Styles */
 ul, ol {
@@ -49,3 +51,10 @@ ul, ol {
 strong {
     color: #5a3e2e;                     
 }
+
+h2 {
+padding-bottom: 1;
+margin-left: 1px;
+margin-right: 1px;
+}
+
